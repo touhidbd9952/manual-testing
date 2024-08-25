@@ -1,0 +1,70 @@
+////////Testcase Template///////////////////////////////////////
+In every testcase writting tools, you will get below options
+
+TC ID		:  Testcase ID Number
+Created By	:  Type the name of person who created this testcase
+Reviewed By	:  Type the name of person who reviewed this testcase (Manager Name/Senior Tester)
+Reviewed Date	:  Type reviewed data here
+Priority	:  High/Low/Medium
+Pre requisites	:  some requirement for this test
+
+Title		:  Testcase title
+Desciption	:  More details about Testcase
+Executed By	:  Type the name of person who executed this testcase
+Executed Date	:  Type executed data here
+
+
+Example:
+-----------------
+
+TC ID		:  TC_0001
+Created By	:  Touhid
+Reviewed By	:  
+Reviewed Date	:
+Priority	:  High
+Pre requisites	:  Edge browser should be installed
+
+Title		:  Verify that electornics category filters only electronics items
+Desciption	:
+Executed By	:  Touhid
+Executed Date	:  3/26/2024
+
+
+Step #	| Test Step		     | Test Data		      | Expceted Result		    | Actual Result	      | Execution Details	         | Comments                                  
+	|                            |                                |                             |                         | (Pass/Fail/Blocked/OnHold)       |                       			
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 1	| Launch the website         | https://www.amazon.com.au/     |  Website should             | As expected             |  Pass                            |                                                                                                                             
+        | URL in edge browser        |                                |  launch successfully        |                         |                                  |                                                                                                                                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                                                                                                                                                                                                                                                                                                                               
+ 2	| Click on "Electronics"     |                                |  Electronics category page  |  As expected            |  Pass                            |                                                                                                                                                     
+        | category                   |                                |  should get displayed       |                         |                                  |                                                                                             
+        |                            |                                |  successfully               |                         |                                  |                                                                                                                                                                                                
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                                                                                                                                                                                                                                                                                                                       
+ 3	| Scroll to the bottom       |                                |  Only electronics items     | As expected             |  Pass                            |                                                                                                                              
+        | of the page and verify     |                                |  should be filtered and     |                         |                                  |                      
+        | the products on page       |                                |  displayed                  |                         |                                  |                                                                                                                                                                                             
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------      
+
+
+What is test case?
+------------------
+A test case is a set of steps that are designed to verify the correctness of 
+a particular functionality of a software application. 
+
+Test cases typically consist of two main components: the “actual result” 
+and the “expected result.”
+
+Actual Result
+-----------------
+This is the output that is obtained when the test case is executed.
+
+Expected Result
+-----------------
+This is the predefined output or behavior that the tester expects 
+to observe when the test case is executed correctly.
+
+
+
+
+
+ 
